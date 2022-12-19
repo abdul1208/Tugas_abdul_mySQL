@@ -1,0 +1,14 @@
+1. Relasi one to one
+	-Tabel perusahaan_manufaktur ke tabel detail_perusahaan_manufaktur: setiap perusahaan manufaktur hanya
+	 memiliki 1 relasi ke data detail_perusahaan.
+
+2. Relasi One to many
+	-Tabel perusahaan_manufaktur ke tabel obat : setiap perusahaan manufaktur bisa memproduksi lebih dari satu jenis obat
+	-Tabel tabel database_kasir ke tabel transaksi  : setiap kasir dapat melakukan lebih dari satu transaksi penjualan
+
+3. Relasi many to many
+	-Tabel obat ke tabel transaksi : Dimana setiap jenis obat bisa dijual dalam beberapa kali transaksi penjualan 
+	 begitupun sebaliknya setiap transaksi penjualan bisa membeli beberapa jenis obat. Sehingga menghasilkan
+	 tabel detail_transaksi sebagai perantara yang memiliki relasi ke tabel obat dan tabel transaksi.
+
+cukup sekian dan terima kasih mohon maaf jika penjelasan terbilang singkat namun semoga mudah untuk di pahami. Terima kasih
